@@ -2,9 +2,20 @@
 
 @import "_variables";
 
-
+* {
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
 body {
-  background: #242424;
+  background: #f2f2f2;
 
   min-height: 100vh;
+}
+
+.navigation {
+  background-color: #222222;
+  height: 80px;
+  color: #f2f2f2f2;
+  width: 100%;
 }
