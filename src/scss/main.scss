@@ -3,19 +3,54 @@
 @import "_variables";
 
 * {
+  margin: 0;
+  padding: 0;
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
 }
 body {
   background: #f2f2f2;
-
   min-height: 100vh;
 }
 
-.navigation {
+.announcement-bar {
   background-color: #222222;
   height: 80px;
   color: #f2f2f2f2;
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px;
+}
+
+.logo {
+  font-size: 40px;
+}
+
+.navigation {
+  width: 250px;
+  font-size: 20px;
+}
+
+.navigation__link {
+  padding-left: 16px;
+  color: #f2f2f2f2;
+}
+
+.social-media {
+  width: 250px;
+  font-size: 20px;
+  display: flex;
+  justify-content: end;
+}
+
+.social-media__link {
+  width: 50px;
+  margin-right: 16px;
+  color: #222222;
+  border: 2px solid #f2f2f2;
+  border-radius: 8px;
+  background-color: #f2f2f2;
 }
