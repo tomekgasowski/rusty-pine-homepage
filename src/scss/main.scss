@@ -26,17 +26,13 @@
 	top: 0;
 }
 
-.background-image {
-  width: 100vh;
-  height: 100vw;
-}
-
 .home {
   background-image: url("../assets/img/wallpaperflare.com_wallpaper.jpg");
   height: 100vh;
   width: 100%;
   background-position: center;
-  //background-color: #3B7455;
+  background-size: 120%;
+  background-repeat: no-repeat;
 }
 
 .logo {
@@ -44,7 +40,7 @@
   font-weight:900
 }
 
-.navigation {
+.announcement-bar__navigation {
   width: 250px;
   font-size: 20px;
 }
@@ -54,26 +50,27 @@
   color: #f2f2f2f2;
 }
 
-// .page-wrapper {
-//   width: 100vw;
-// }
 
-.social-media {
+
+.announcement-bar__links{
   width: 250px;
   font-size: 20px;
   display: flex;
   justify-content: end;
 }
 
-.social-media__link {
+.socials {
+  display: flex;
+}
+
+.socials__icon {
+  filter: invert(92%) sepia(4%) saturate(1385%) hue-rotate(338deg) brightness(101%) contrast(103%);
+  color: white;
   width: 30px;
   height: 30px;
   margin-left: 10px;
-  color: #222222;
-  border: 2px solid #f2f2f2;
-  border-radius: 50%;
-  background-color: #f2f2f2;
 }
+
 
 .tour {
   min-height: 100vh;
