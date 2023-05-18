@@ -20,10 +20,21 @@
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
   padding: 35px;
 	position: fixed;
 	top: 0;
+}
+
+.burger-line {
+  height: 4px;
+  width: 100%;
+  margin-bottom: 6px;
+  background-color: white;
+  display: block;
+}
+
+.close-burger {
+  display: none;
 }
 
 .home {
@@ -36,13 +47,25 @@
 }
 
 .logo {
+  position: absolute;
+  left: 50%;
   font-size: 40px;
-  font-weight:900
+  font-weight:900;
+  transform: translate(-50%, 0%);
 }
 
-.announcement-bar__navigation {
+.menu {
+  position: fixed;
+  top: 30px;
+  left: 38px;
+  width: 30px;
+  height: 30px;
+}
+
+.navigation {
   width: 250px;
   font-size: 20px;
+  display: none;
 }
 
 .navigation__link {
@@ -60,17 +83,23 @@
 }
 
 .socials {
+  position: fixed;
+  right: 35px;
+  top: 27px;
   display: flex;
 }
 
 .socials__icon {
-  filter: invert(92%) sepia(4%) saturate(1385%) hue-rotate(338deg) brightness(101%) contrast(103%);
-  color: white;
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(333deg) brightness(102%) contrast(103%);
   width: 30px;
   height: 30px;
   margin-left: 10px;
+  display: block;
 }
 
+.socials_item {
+  display: flex;
+}
 
 .tour {
   min-height: 100vh;
